@@ -9,7 +9,7 @@ class Armor {
   public:
 	enum class Color { RED, BLUE };
 
-	/** 装甲板四个定点的坐标 */
+	/** 装甲板四个顶点的坐标 */
 	std::vector<cv::Point2i> vertices;
 
 	/** 装甲板中心在相机坐标系中的三维坐标 */
